@@ -1,0 +1,106 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Boogaloo', cursive;
+    background-image: linear-gradient(180deg, #d2b1da, #cbbdcf, #bbbec0);
+}
+
+.top {
+    background-color: rgb(143, 74, 150);
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.chatbox {
+    width: 95% !important;
+    height: calc(100% - 60px);
+
+    margin-top: 30px;
+    padding: 0;
+
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+}
+
+#rounded {
+    border-radius: 1rem;
+    background-color: rgb(143, 74, 150);
+    color: white;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
+    font-weight: 400;
+    color: #000;
+}
+
+.under-name {
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+
+.icons {
+    font-size: 20px;
+
+    color: rgb(143, 74, 150);
+}
+
+.chat {
+    height: 30px;
+    width: 30px;
+}
+
+
+.text {
+    background-color: rgb(195, 101, 206);
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.time {
+    color: gray;
+    float: right;
+    ;
+    margin-top: 5%;
+    margin-left: 3%;
+
+    font-size: 10px;
+}
+
+.tex {
+    background-color: rgb(94, 127, 216);
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 1rem;
+    float: right;
+}
+
+.card {
+    height: 94vh;
+}
+
+#messages {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
